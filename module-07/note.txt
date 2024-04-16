@@ -1,0 +1,14 @@
+* What is Array
+* Why need Array
+* when need Array
+* Create an Array
+* Accessing An Array:
+    when we Create a variable it will Create 4 bytes in memory but when we Create an array[5] it will Create 4 column in memory for better Accessing each column will take 4 bytes each. so when we want to access the value it will then add the value + the index of the array item.
+
+    Ex: 410 + 0 = 410 first array element. 410 + 4 = 414 second element.
+
+* array input and output
+* initialization and assign of any array
+* Array Length
+* Reverse An array
+* Sum of An array;
