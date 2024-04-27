@@ -1,5 +1,9 @@
-XXXXXXXXX
- XXXXXXX
-  XXXXX
-   XXX
-    X
+    x
+   xxx
+  xxxxx
+ xxxxxxx
+xxxxxxxxx
+ xxxxxxx
+  xxxxx
+   xxx
+    x
