@@ -1,11 +1,5 @@
-* 
-* * 
-* * * 
-* * * * 
-* * * * * 
-* * * * 
-* * * 
-* * 
-* 
-
-
+XXXXXXXXX
+ XXXXXXX
+  XXXXX
+   XXX
+    X
