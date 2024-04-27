@@ -20,5 +20,16 @@ int main()
         k++;
     }
 
+    int z = n;
+    for (int i = n; i >= 0; i--)
+    {
+        for (int x = 0; x < z - 1; x++)
+        {
+            printf("* ");
+        }
+        printf("\n");
+        z--;
+    }
+
     return 0;
 }
