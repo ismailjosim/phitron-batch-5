@@ -1,5 +1,4 @@
-5.55
-5.55
-Y memory reference: 0061FF08
-10.20
-Y memory reference: 0061FF08
+Modified value: 20
+Modified Memory Address: 00000014
+Original value: 10
+Original  Memory Address: 0000000A
