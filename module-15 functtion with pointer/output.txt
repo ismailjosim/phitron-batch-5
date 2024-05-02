@@ -1,4 +1,6 @@
-Modified value: 20
-Modified Memory Address: 00000014
-Original value: 10
-Original  Memory Address: 0000000A
+0Th index Value: 10
+0Th index Value: 10
+1st Index Value: 20
+1st Index Value: 20
+1st Index Value: 30
+1st Index Value: 50
