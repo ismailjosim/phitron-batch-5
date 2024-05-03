@@ -1,0 +1,5 @@
+1. Recap about Pointers
+2. Call By Value and Call By Reference
+3. Relation between Array and Pointers
+4. Work with Array and and String inside a Function.
+5. How Array works with Call By Reference inside a Function.

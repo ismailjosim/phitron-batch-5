@@ -1,0 +1,6 @@
+0Th index Value: 10
+0Th index Value: 10
+1st Index Value: 20
+1st Index Value: 20
+1st Index Value: 30
+1st Index Value: 50
