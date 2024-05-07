@@ -1,1 +1,1 @@
-Not Primary Diagonal Matrix
+Not Diagonal
