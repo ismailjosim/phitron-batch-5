@@ -1,6 +1,0 @@
-1. copying String
-2. compar two String
-3. contact two String
-4. counting array: count value
-5. counting array: char count
-

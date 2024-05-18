@@ -1,4 +1,0 @@
-1. What is 2D array?
-2. Input and Output in 2D array
-3. Matrix and Types of Matrix
-4. Prove each types of Matrix using 2D array.
