@@ -1,6 +1,0 @@
-TODAY'S TOPICS:
-    1. Insert an element into an array
-    2. Remove an element form an array
-    3. Reverse an array
-    4. Two Pointers Technique
-    5. Copy Two array elements into one new array

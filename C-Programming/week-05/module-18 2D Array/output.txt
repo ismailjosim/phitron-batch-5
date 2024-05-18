@@ -1,2 +1,0 @@
-ARRAY[0]row [0]column = 10, ARRAY[0]row [1]column = 20, ARRAY[0]row [2]column = 30, 
-ARRAY[1]row [0]column = 40, ARRAY[1]row [1]column = 50, ARRAY[1]row [2]column = 60, 

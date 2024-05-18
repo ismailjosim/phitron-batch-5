@@ -21,13 +21,8 @@ int main()
         {
             for (int j = 0; j < col; j++)
             {
-                // check primary/secondary corner has the same value for example: 1 or 2 each
-                if (i == j)
+                if (i + j == row - 1)
                 {
-                    if (arr[i][j] != arr[0][0])
-                    {
-                        flag = 0;
-                    }
                     continue;
                 }
                 if (arr[i][j] != 0)
@@ -40,7 +35,7 @@ int main()
 
     if (flag == 1)
     {
-        printf("Scaler Diagonal\n");
+        printf("Secondary Diagonal\n");
     }
     else
     {
