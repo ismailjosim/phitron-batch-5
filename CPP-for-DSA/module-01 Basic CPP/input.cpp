@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    // * Basic Input for an Integer
+    // * Basic Integer Input
     int number;
     cin >> number;
     cout << "Your entered Value is: " << number << endl;
