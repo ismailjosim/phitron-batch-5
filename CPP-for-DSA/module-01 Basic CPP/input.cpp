@@ -26,6 +26,8 @@ int main()
     //* For strings with spaces, use getline
     string fullName;
     getline(cin, fullName);
+    // alternative method
+    // cin.getline(name, 100);
     cout << "Hello, " << fullName << "!" << endl;
 
     // * Array Input
