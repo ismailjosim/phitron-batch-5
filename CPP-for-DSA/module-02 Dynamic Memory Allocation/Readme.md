@@ -5,3 +5,4 @@
 * Create Array using Dynamic Memory
 * How to Return array from a function
 * Delete Dynamic Memory
+* Why we need Dynamic memory allocation ?
