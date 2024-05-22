@@ -1,0 +1,32 @@
+class and object
+
+what is class?
+It's a part of OOP
+to implement dsa we need class and object
+we will learn OOP in Python
+
+when we need to create hold multiple value we need object. for example:
+student:  name, age, roll, class, result etc.
+
+if new need a group of data or multiple data for the same person we will use class object.
+
+like this:
+personOne = {
+    name,
+    age,
+    roll,
+    class,
+    marks
+}
+
+it's also called user defined data type. because can defined various data-type here. example: {
+    name:string,
+    age:int,
+    roll:int,
+    class:string,
+    marks:array
+}
+
+what is object?
+int a = 10;
+int a = when we create a variable using class it's called object
