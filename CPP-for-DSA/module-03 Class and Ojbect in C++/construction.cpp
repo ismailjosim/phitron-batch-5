@@ -8,11 +8,15 @@ public:
     int roll;
     int className;
     double GPA;
-    Student(int r, int c, double g)
+    // Student(int r, int c, double g) // exact value will conflict and give garbage value
+    Student(int roll, int className, double GPA) // exact value will conflict and give garbage value
     {
-        roll = r;
-        className = c;
-        GPA = g;
+        (*this).roll = roll;
+        (*this).className = className;
+        (*this).GPA = GPA;
+
+        //* short-cut of the above this de-reference: when i want to de-reference also access the member from that group will can use this method:
+        this->className = className;
     }
 };
 
@@ -22,3 +26,5 @@ main()
 
     return 0;
 }
+
+// this keyword is a built-in pointer
