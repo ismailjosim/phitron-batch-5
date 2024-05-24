@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cctype>
+#include <cctype> // for character type functions (isdigit, isalpha, isupper).
 using namespace std;
 
 int main()
