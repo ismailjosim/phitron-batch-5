@@ -1,2 +1,4 @@
-String is :Javascript
-After resizing, string is Java
+MyName
+is
+ismail
+josim
