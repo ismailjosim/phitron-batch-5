@@ -1,1 +1,2 @@
-Same
+String is :Javascript
+After resizing, string is Java
