@@ -8,8 +8,10 @@ int main()
     string s;
     cin >> s;
     cout << s.size() << endl;
+
     //* s.max_size() -> returns the maximum size that string can hold.
     cout << s.max_size() << endl; // 1073741823
+
     //* s.capacity() -> returns current available capacity of the string. will increase if string size if larger the default 15 size
     cout << s.capacity() << endl;
 

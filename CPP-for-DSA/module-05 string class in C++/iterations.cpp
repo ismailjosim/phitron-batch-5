@@ -5,8 +5,8 @@ using namespace std;
 int main()
 {
     string s = "Programming";
-    // cin >> s;
-    // getline(cin, s);
+    cin >> s;
+    getline(cin, s);
 
     // using normal for-loop
     for (int i = 0; i < s.size(); i++)
