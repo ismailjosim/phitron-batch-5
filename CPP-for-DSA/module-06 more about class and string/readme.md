@@ -1,6 +1,6 @@
 # Topics
 
-- String constructor
+- String constructor ✅
 - How to sort string
 - Range based for loop
 - print word in reverse order
