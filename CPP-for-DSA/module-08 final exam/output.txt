@@ -1,2 +1,9 @@
-rahimisa#guy
-can#tellmewhereicanfindheriwillbegreatefulto#if#tellmetheanswer
+1 loop
+2 loop
+3 loop
+Rakib 7 C 90 
+Sakib 10 A 85 
+Ahsan 9 B 36 
+Rakib 7 C 90 
+Sakib 10 A 85 
+Ahsan 9 B 36 
