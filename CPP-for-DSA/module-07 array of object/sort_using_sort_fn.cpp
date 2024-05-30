@@ -47,7 +47,7 @@ bool cmp(Student a, Student b)
         {
             return false;
         }
-        return a.age < b.age;
+        // return a.age < b.age;
     }
 
     // Solution 2: short-cut solution of the above code
