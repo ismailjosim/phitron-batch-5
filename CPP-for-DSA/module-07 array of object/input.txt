@@ -1,7 +1,7 @@
-3
-ismail josim
-25 500
-ismail hossen
-25 500
-md ismail
-25 500
+6
+josim 15 400
+ismail 12 500
+rohim 19 300
+korim 10 300
+jafor 8 800
+raihan 5 800

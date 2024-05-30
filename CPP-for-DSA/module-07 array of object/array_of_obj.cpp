@@ -62,5 +62,22 @@ int main()
         cout << arr[i].name << " " << arr[i].age << " " << arr[i].marks << endl;
     }
 
+    // string with space
+    for (int i = 0; i < n; i++)
+    {
+        cin.ignore();
+        getline(cin, arr[i].name);
+
+        cin >> arr[i].age >> arr[i].marks;
+    }
+    for (int i = 0; i < n; i++)
+    {
+        cout << arr[i].name << " " << arr[i].age << " " << arr[i].marks << endl;
+    }
+
+    // with dynamic array
+    Student *arr = new Student[n];
+    // rest of the work is similar to normal array
+
     return 0;
 }
