@@ -4,4 +4,4 @@ ismail 12 500
 rohim 19 300
 korim 10 300
 jafor 8 800
-raihan 5 800
+raihan 5 300
