@@ -1,7 +1,0 @@
-6
-josim 15 400
-ismail 12 500
-rohim 3 300
-korim 10 300
-jafor 8 800
-raihan 5 300
