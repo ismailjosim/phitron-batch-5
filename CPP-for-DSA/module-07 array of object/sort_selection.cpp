@@ -21,6 +21,7 @@ int main()
         cin >> arr[i].name >> arr[i].age >> arr[i].marks;
     };
 
+    // * sort selection: based on marks
     for (int i = 0; i < n - 1; i++)
     {
         for (int j = i + 1; j < n; j++)
@@ -31,12 +32,14 @@ int main()
             }
         }
     }
+
+    // * show output
     for (int i = 0; i < n - 1; i++)
     {
         cout << arr[i].name << " " << arr[i].age << " " << arr[i].marks << endl;
     }
 
-    // if 2 value has same marks then sort will be based on age number (less number)
+    //* if 2 value has same marks then sort will be based on age number (less number)
     for (int i = 0; i < n - 1; i++)
     {
         for (int j = i + 1; j < n; j++)
@@ -54,6 +57,7 @@ int main()
             }
         }
     }
+    // * output
     cout << endl;
     for (int i = 0; i < n - 1; i++)
     {
