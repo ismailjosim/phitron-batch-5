@@ -11,38 +11,38 @@ public:
 
 int main()
 {
-    // int n;
-    // cin >> n;
+    int n;
+    cin >> n;
 
-    // Student arr[n];
+    Student arr[n];
 
-    // for (int i = 0; i < n; i++)
-    // {
+    for (int i = 0; i < n; i++)
+    {
 
-    //     cin >> arr[i].name >> arr[i].age >> arr[i].marks;
-    // }
+        cin >> arr[i].name >> arr[i].age >> arr[i].marks;
+    }
 
-    // for (int i = 0; i < n; i++)
-    // {
-    //     cout << arr[i].name << " " << arr[i].age << " " << arr[i].marks;
-    // }
+    for (int i = 0; i < n; i++)
+    {
+        cout << arr[i].name << " " << arr[i].age << " " << arr[i].marks;
+    }
 
     //* dynamic array
-    // int n;
-    // cin >> n;
+    int n;
+    cin >> n;
 
-    // Student *arr = new Student[n];
+    Student *arr = new Student[n];
 
-    // for (int i = 0; i < n; i++)
-    // {
+    for (int i = 0; i < n; i++)
+    {
 
-    //     cin >> arr[i].name >> arr[i].age >> arr[i].marks;
-    // }
+        cin >> arr[i].name >> arr[i].age >> arr[i].marks;
+    }
 
-    // for (int i = 0; i < n; i++)
-    // {
-    //     cout << arr[i].name << " " << arr[i].age << " " << arr[i].marks << endl;
-    // }
+    for (int i = 0; i < n; i++)
+    {
+        cout << arr[i].name << " " << arr[i].age << " " << arr[i].marks << endl;
+    }
 
     //* string with space
     int n;
