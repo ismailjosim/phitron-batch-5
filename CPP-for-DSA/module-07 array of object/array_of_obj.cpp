@@ -11,12 +11,55 @@ public:
 
 int main()
 {
+    // int n;
+    // cin >> n;
+
+    // Student arr[n];
+
+    // for (int i = 0; i < n; i++)
+    // {
+
+    //     cin >> arr[i].name >> arr[i].age >> arr[i].marks;
+    // }
+
+    // for (int i = 0; i < n; i++)
+    // {
+    //     cout << arr[i].name << " " << arr[i].age << " " << arr[i].marks;
+    // }
+
+    //* dynamic array
+    // int n;
+    // cin >> n;
+
+    // Student *arr = new Student[n];
+
+    // for (int i = 0; i < n; i++)
+    // {
+
+    //     cin >> arr[i].name >> arr[i].age >> arr[i].marks;
+    // }
+
+    // for (int i = 0; i < n; i++)
+    // {
+    //     cout << arr[i].name << " " << arr[i].age << " " << arr[i].marks << endl;
+    // }
+
+    //* string with space
     int n;
     cin >> n;
-    int arr[n];
+
+    Student *arr = new Student[n];
+
     for (int i = 0; i < n; i++)
     {
-        cin >> arr[i];
+        cin.ignore();
+        getline(cin, arr[i].name);
+        cin >> arr[i].age >> arr[i].marks;
+    }
+
+    for (int i = 0; i < n; i++)
+    {
+        cout << arr[i].name << " " << arr[i].age << " " << arr[i].marks << endl;
     }
 
     return 0;
