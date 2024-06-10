@@ -1,0 +1,22 @@
+onek somoy server bole dibe je ekta programme run korte ki poriman time lagbe for example: 1s
+so 1 second = 10^8 * server er upore +- hote pare. so better hoy 10^7 dora
+
+ekhon jodi bole 2s
+tahole hobe: 2s = 10^7 * 2
+mane:
+1s = 1 00 00 000
+2s = 2 00 00 000
+3s = 3 00 00 000
+
+ekhon TC calculate korar jonno:
+jodi n er mann 10^7 er modde hoy tahole amder programme 1s er modde run hobe.
+jodi 10^8 hoy tahole 1s er poriborte 10s nibe. jeta kono complier dibe na.
+
+here is an example:
+10^7 = 1s
+10^8 = 10s
+10^9 = 100s
+
+
+now, if n = 10^7 then our programme will be run within 1s. else it won't run. example if n = 10^12 hoy tahole amader programme run korbe na. eta ke optimize korte hobe.
+
