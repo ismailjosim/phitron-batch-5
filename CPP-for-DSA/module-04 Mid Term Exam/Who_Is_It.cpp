@@ -1,30 +1,28 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <cstring>
 
 using namespace std;
-
-#include <string>
 
 class Student
 {
 public:
     int id;
-    string name;
+    char name[101];
     char section;
     int totalMarks;
 
-    Student(int id, string name, char section, int totalMarks)
+    Student(int id, const char *name, char section, int totalMarks)
     {
         this->id = id;
-        this->name = name;
+        strncpy(this->name, name, 101);
         this->section = section;
         this->totalMarks = totalMarks;
     }
 };
 
-Student *instance(int id, string name, char section, int totalMarks)
+Student *createStudent(int id, const char *name, char section, int totalMarks)
 {
-    Student *personOne = new Student(id, name, section, totalMarks);
-    return personOne;
+    return new Student(id, name, section, totalMarks);
 }
 
 int main()
@@ -34,31 +32,31 @@ int main()
     Student *students[3];
     for (int i = 0; i < t; i++)
     {
-
-        for (int i = 0; i < 3; ++i)
+        for (int j = 0; j < 3; ++j)
         {
             int id;
-            string name;
+            char name[101];
             char section;
             int totalMarks;
             cin >> id >> name >> section >> totalMarks;
-            students[i] = instance(id, name, section, totalMarks);
+            students[j] = createStudent(id, name, section, totalMarks);
         }
-        Student *topStudent = students[0];
-        for (int i = 1; i < 3; ++i)
-        {
 
-            if (students[i]->totalMarks > topStudent->totalMarks)
+        Student *topStudent = students[0];
+        for (int j = 1; j < 3; ++j)
+        {
+            if (students[j]->totalMarks > topStudent->totalMarks ||
+                (students[j]->totalMarks == topStudent->totalMarks && students[j]->id < topStudent->id))
             {
-                topStudent = students[i];
+                topStudent = students[j];
             }
         }
 
         cout << topStudent->id << " " << topStudent->name << " " << topStudent->section << " " << topStudent->totalMarks << endl;
 
-        for (int i = 0; i < 3; ++i)
+        for (int j = 0; j < 3; ++j)
         {
-            delete students[i];
+            delete students[j];
         }
     }
 

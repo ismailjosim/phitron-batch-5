@@ -4,11 +4,20 @@ using namespace std;
 
 int main()
 {
-    string x, y;
-    cin >> x >> y;
-    for (char c : x)
+    int t;
+    cin >> t;
+    for (int i = 0; i < t; i++)
     {
-        cout << c << endl;
+        string str, word;
+        cin >> str >> word;
+
+        while (str.find(word) != -1)
+        {
+            str.replace(str.find(word), word.size(), "#");
+        }
+
+        cout << str << endl;
     }
+
     return 0;
 }

@@ -1,0 +1,16 @@
+O(N) mane holo N times steps colbe. example:
+for(int i = 0; i < n; i++){
+
+}
+etake bola hoy O(n)
+
+ekhon n cara ar ki ki hote pare. amra jodi N er sathe:
+N/2
+N/3
+N*2
+N*3
+N/k
+N*k
+ekhane jetai hok na kno TC = N e hobe. er kron holo er ase pasen +-*/ jai thakbe segula constants tai oigual ignore korbo. note ekhane K diyeo constants value ke indicate kora hoiche.
+
+

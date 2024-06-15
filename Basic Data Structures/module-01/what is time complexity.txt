@@ -1,0 +1,50 @@
+# TC = Time Complexity
+
+kono ekta programming run korar jonno se koto gula steps nicce setai holo oi programme er time complexity
+
+TC measure korar je formula setake bole big O notation like this: O(steps)
+and ei steps ta 2ta jinis follow korbe 1) grammmer (er kicu grammer ase) 2) input (input value r upore depends kore steps diye thake.) ei jonno steps diye count kora hoi er TC kmn hobe.
+
+example:
+int a = 10; ==> step
+int b  = 20; ==> step
+int sum = a + b; ==> step
+cout << sum ==> step
+so our TC will be O(4)
+
+for(int i = 0;i< 100; i++){
+    cout << "Hello";
+}
+
+ekhane amra jodi count kori tahole totally step hobe: 100 so ekhane amra bolte pari TC = O(100).
+ekhon 100 value all time e 100 hobe na. eta dynamic hobe means user input dibe. so amra evabe bolte pari: O(n) jar man holo 100
+
+Grammar:
+
+1. always calculate for worst case
+2. ignore the constants. Means jodi 2N thake tahole N hobe n/3 hoy tahole n hobe. karon n constants.
+
+always calculate for worst case:
+
+for(int i = 0; i< n; i++){
+if(a[i] === x){break};
+}
+
+ekhane best case holo jodi amra 1st loop korar porei jodi amader result peye jai tahole amader programme ekta step ei kaj kore felte pare. kintu er mane ei na je se sob somoy 1st step ei result dite parbe. ekhane ses step eio thakte pare tai amder calculate kroar somoy last step kei always count korte hobe.
+
+amra jodi kono kicu diye jodi n ke divide kori tahole TC er kono changes hoy na. ei jonno amra constants value ignore korbo.
+
+for(int i = 0; i < n; i++){
+
+}
+
+for(int i = 0; i < n; i++){
+
+}
+ekhane jodi 2ta loop hoy tahole amar total Tc hobe: O(n+m)
+er karon holo amra jani na n and m eer mann koto tai amra ekhane n+m likhe thaki er mane holo 2tar modde jeta boro setai hobe TC
+
+so Finally: 1. we ignore best case and ignore constants value
+            2. always calculate worst case.
+
+normally complexity ase loop theke. cz
