@@ -1,0 +1,30 @@
+linked holo computer science er emon ek doroner fundamental data structure jeta commonly dynamic data structure like: lists, stacks, queues etc jonno use kora hoy. ekhane data gula ektu nidristo krome sajano thake. but egula memory te side-by-side sajano thake na. borong eke onner sathe link er sathe connected thake. ei link gula ke sadaronoto pointer bola hoye thake.
+
+colen linked list er bepare ektu details e jana jak:
+* node: linked list er main element holo node. each node contains 2 parts.
+    1. data: ekhane node er actual data thake
+    2. next pointer: eta next node er memory address dharon kore rakhe.
+* head: linked list er 1st node ke head bola hoy.  It serves as the entry point to the list
+* tail: last node ke tail bola hoy. tail er next pointer ti sadaronoto NULL mane save kora thake jeta link sesh howake indicate kore.
+
+types of linked List:
+1. single linked list:
+2. double linked list:
+3. circular linked list:
+    i) single circular linked list
+    ii) double circular linked list
+
+linked list er operation:
+1. Traversal: jeta diye each node e visit kora bujay.
+2. inertion: add a new node to the list.
+    i) at the beginning.
+    ii) at the end.
+    iii) after a given node.
+
+3. Deletion: Removing a node from the list.
+    i) From the beginning.
+    ii) From the end.
+    iii) After a given node.
+
+4. Searching: Finding a node with a specific value.
+5. Updating: Changing the value of a node.
