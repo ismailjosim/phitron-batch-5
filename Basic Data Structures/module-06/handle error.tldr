@@ -1,0 +1,299 @@
+{
+	"tldrawFileFormatVersion": 1,
+	"schema": {
+		"schemaVersion": 2,
+		"sequences": {
+			"com.tldraw.store": 4,
+			"com.tldraw.asset": 1,
+			"com.tldraw.camera": 1,
+			"com.tldraw.document": 2,
+			"com.tldraw.instance": 25,
+			"com.tldraw.instance_page_state": 5,
+			"com.tldraw.page": 1,
+			"com.tldraw.instance_presence": 5,
+			"com.tldraw.pointer": 1,
+			"com.tldraw.shape": 4,
+			"com.tldraw.asset.bookmark": 2,
+			"com.tldraw.asset.image": 4,
+			"com.tldraw.asset.video": 4,
+			"com.tldraw.shape.group": 0,
+			"com.tldraw.shape.text": 2,
+			"com.tldraw.shape.bookmark": 2,
+			"com.tldraw.shape.draw": 2,
+			"com.tldraw.shape.geo": 9,
+			"com.tldraw.shape.note": 7,
+			"com.tldraw.shape.line": 5,
+			"com.tldraw.shape.frame": 0,
+			"com.tldraw.shape.arrow": 5,
+			"com.tldraw.shape.highlight": 1,
+			"com.tldraw.shape.embed": 4,
+			"com.tldraw.shape.image": 3,
+			"com.tldraw.shape.video": 2,
+			"com.tldraw.binding.arrow": 0
+		}
+	},
+	"records": [
+		{
+			"gridSize": 10,
+			"name": "",
+			"meta": {},
+			"id": "document:document",
+			"typeName": "document"
+		},
+		{
+			"id": "pointer:pointer",
+			"typeName": "pointer",
+			"x": 574.1978368950525,
+			"y": 1102.2246751829357,
+			"lastActivityTimestamp": 1719385980624,
+			"meta": {}
+		},
+		{
+			"meta": {},
+			"id": "page:page",
+			"name": "Page 1",
+			"index": "a1",
+			"typeName": "page"
+		},
+		{
+			"followingUserId": null,
+			"opacityForNextShape": 1,
+			"stylesForNextShape": {},
+			"brush": null,
+			"scribbles": [],
+			"cursor": {
+				"type": "default",
+				"rotation": 0
+			},
+			"isFocusMode": false,
+			"exportBackground": true,
+			"isDebugMode": false,
+			"isToolLocked": false,
+			"screenBounds": {
+				"x": 0,
+				"y": 0,
+				"w": 1872,
+				"h": 966
+			},
+			"insets": [
+				false,
+				false,
+				true,
+				false
+			],
+			"zoomBrush": null,
+			"isGridMode": false,
+			"isPenMode": false,
+			"chatMessage": "",
+			"isChatting": false,
+			"highlightedUserIds": [],
+			"isFocused": true,
+			"devicePixelRatio": 1,
+			"isCoarsePointer": false,
+			"isHoveringCanvas": true,
+			"openMenus": [],
+			"isChangingStyle": false,
+			"isReadonly": false,
+			"meta": {},
+			"duplicateProps": null,
+			"id": "instance:instance",
+			"currentPageId": "page:page",
+			"typeName": "instance"
+		},
+		{
+			"editingShapeId": "shape:N2vSfAqW5crPrnKC3rMYW",
+			"croppingShapeId": null,
+			"selectedShapeIds": [
+				"shape:N2vSfAqW5crPrnKC3rMYW"
+			],
+			"hoveredShapeId": "shape:N2vSfAqW5crPrnKC3rMYW",
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:page",
+			"pageId": "page:page",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": 109.44521606348917,
+			"y": -462.0335111836232,
+			"z": 1.0356281643411,
+			"meta": {},
+			"id": "camera:page:page",
+			"typeName": "camera"
+		},
+		{
+			"x": 413,
+			"y": 154,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:sRhpJpHeJEodk-x06uTPZ",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 639.046875,
+				"text": "Possible error while working with singly linked list",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a1",
+			"typeName": "shape"
+		},
+		{
+			"x": 405,
+			"y": 191,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:f88ZagzbG7vJ-rmmK744l",
+			"type": "line",
+			"props": {
+				"dash": "draw",
+				"size": "m",
+				"color": "black",
+				"spline": "line",
+				"points": {
+					"a1": {
+						"id": "a1",
+						"index": "a1",
+						"x": 0,
+						"y": 0
+					},
+					"a2": {
+						"id": "a2",
+						"index": "a2",
+						"x": 657,
+						"y": -6
+					}
+				},
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a2",
+			"typeName": "shape"
+		},
+		{
+			"x": 280.0274171463959,
+			"y": 212.82100234095986,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:F8U5JsK4D1wl458Trx3Cv",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 1034,
+				"text": "1. if not head we have to and we try to add item at tail.\n2. insert at any position:\n    1. exceded index value. for example: i have 1 and if i want to add at position 100\n      it will return segmentation fault\n    2.এই এররটা যখন NULL এর next এ যাওয়ার ট্রাই করবে তখন হবে। এটাকে হ্যান্ডেল করার জন্য\nif(temp == NULL){\ncout << \"invalid Index\";\nreturn;\n}",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a3",
+			"typeName": "shape"
+		},
+		{
+			"x": 285.4841746992842,
+			"y": 523.8317532589717,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:C1Ry19xzT53QmqO0WTio6",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 901.1875,
+				"text": "2. Delete from a specific postion:\n  এখানে পসিবল এরর হতে পারে যদি ডিলিট পজিশন একচুয়াল পজিশন থেকে বেশি হয়।\nif(temp == NULL){\ncout << \"invalid Index\";\nreturn;\n}",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a4",
+			"typeName": "shape"
+		},
+		{
+			"x": 331.83285625579555,
+			"y": 737.228807925409,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:_Tbnkq0Z5DMOjqXlr8vOg",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 1313.671875,
+				"text": "এছাড়া এখানে আরেকটা এরর আসবে সেটা হলোঃ লুপের মধ্যে যদি আমরা ১নং ইনডেক্স কে ডিলিট করতে চাই তাহলে \nআমাদের কন্ডিশনে ১নং ইনডেক্স মানে ০ তম নোড কে ডিলিট করার পরে তার সাথে অন্য কোনটা কানেক্ট করার ট্রাই করতেছে।\nযেহেতু আমাদের এখানে একটাই আইটেম আছে তাহলে পরেরটার সাথে কিভাবে কানেক্ট করবে। এই জন্য আমরা segmentation\nfault খাবো। এর জন্য আমাদেরকে এটা হ্যান্ডেল করতে হবেঃ",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a5",
+			"typeName": "shape"
+		},
+		{
+			"x": 289.3465648289935,
+			"y": 885.9308279192162,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:X0bkzk0gf7f4zSBTh7Gb9",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 1036.671875,
+				"text": "  // step 03: আগের ইনডেক্সের সাথে ডিলিট করা আইটেমের পরের আইটেমকে কানেক্ট করতে হবে।\n    temp->next = temp->next->next;\nএখানে temp->next হলো null তার কোন next নেই। এখানেই কন্ডিশন হবে।",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a6",
+			"typeName": "shape"
+		},
+		{
+			"x": 299.00254015326675,
+			"y": 1016.2864947969041,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:N2vSfAqW5crPrnKC3rMYW",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 416.96875,
+				"text": "if(temp->next == NULL){\ncout << \"invalid Index\";\nreturn;\n}\ntemp->next = temp->next->next;",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a7",
+			"typeName": "shape"
+		}
+	]
+}
