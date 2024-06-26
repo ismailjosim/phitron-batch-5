@@ -1,0 +1,11 @@
+Today's topic:
+    - vector
+    - prefix sum
+    - binary search
+    - problem solving
+
+What is vector?
+vector is a updated version of dynamic array.
+
+define vector:
+vector <data type>vector_name;
