@@ -14,7 +14,7 @@ int main()
     fun(ptr);
 
     // cout << v << endl;
-    cout << &ptr << endl; // extract memory address
+    cout << &ptr << endl; //* extract memory address
 
     return 0;
 }
