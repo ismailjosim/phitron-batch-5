@@ -1,0 +1,58 @@
+for(int i = 0; i<n; i+=2){
+for(int j = 0;j<i;j++){
+
+}
+}
+
+ekhane first loop ta O(n) porjonto coltece.
+but 2nd loop ta i er upore depends kore loop hobe example:
+
+first loop:
+when i = 1; j = 1 times loop
+when i = 2; j = 2 times loop
+when i = 3; j = 3 times loop
+when i = 4; j = 4 times loop
+when i = 5; j = 5 times loop
+when i = 6; j = 6 times loop
+when i = ~; j = ~ times loop
+
+tai ekhane loop hobe O(n) so total TC = O(n*n) = O(n^2)
+
+-----------------------------
+O(log(n))
+-----------------------------
+for(int i =1; i<n; i = i* 2){
+
+}
+
+assume, i = 16
+loop,
+i = 1; i = i * 2 = 1 * 2 = 2
+i = 2; i = i * 2 = 2 * 2 = 4
+i = 4; i = i * 2 = 4 * 2 = 8
+i = 8; i = i * 2 = 8 * 2 = 16
+
+it's totally decrease almost half of the the loop. so it's a log 2 based loop.
+that's why er time complexity hobe: O(log^n);
+
+💡যদি লুপের স্টেপে গুন/ভাগ থাকে তাহলে তার TC হবে O(log^n)
+
+-----------------------------
+O(nlog(n))
+-----------------------------
+for(int i = n/2; i < n; i++){ ===> এর TC হবে O(n)
+    for(int j = 1; j < n; j = j * 2){ ===> এর TC হবে O(log^n)
+
+    }
+}
+
+explanation:
+এখানে ১ম লুপটা O(n) বার চলতেছে আর ২য় লুপটা O(log^n) বার চলতেছে যার কারণে তাদের টোটাল TC হবে O(nlog^n)
+
+calculate from 1 to N th number
+
+long long int n;
+cin >>n;
+long long int sum = 0;
+
+sum = (n * (n+1))/2
