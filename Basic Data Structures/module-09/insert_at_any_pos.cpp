@@ -69,7 +69,7 @@ void insert_pos(Node *&head, int pos, int v)
     }
 
     // step 03: connect newNode->next to temp->next
-    newNode->next = temp->next;
+    newNode->next = temp->next; // 100->30
 
     // step 04: connect temp node's next to newNode
     temp->next = newNode;
@@ -80,6 +80,57 @@ void insert_pos(Node *&head, int pos, int v)
     // step 06: if newNode->next is not NULL, connect its prev to newNode
     if (newNode->next != NULL)
         newNode->next->prev = newNode;
+}
+// insert at any position
+void insert_head(Node *&head, Node *&tail, int v)
+{
+    Node *newNode = new Node(v);
+    if (head == NULL)
+    {
+        head = newNode;
+        tail = newNode; // if head == NULL insert tail condition will be similar to head
+        return;
+    };
+    newNode->next = head;
+    head->prev = newNode;
+    head = newNode;
+}
+void insert_tail(Node *&head, Node *&tail, int v)
+{
+    Node *newNode = new Node(v);
+    if (tail == NULL)
+    {
+        head = newNode;
+        tail = newNode;
+        return;
+    }
+    newNode->prev = tail;
+    tail = tail->next;
+}
+
+void insert_at_pos(Node *&head, int pos, int v)
+{
+    Node *newNode = new Node(v);
+    // step 01: create temp head
+    Node *temp = head;
+
+    // step 02: loop through that specific position
+    for (int i = 0; i < pos - 1; i++)
+    {
+        temp = temp->next;
+    }
+
+    // step 03: connect newNode->next to temp->next
+    newNode->next = temp->next; // 100->30
+
+    // step 04: connect temp node's next to newNode
+    temp->next = newNode; // 20->100
+
+    // step 05: connect newNode->prev to temp
+    newNode->prev = temp; // 100->20
+
+    // step 06: connect newNode->nextNode->prev to newNode
+    newNode->next->prev = newNode; // 30->100
 }
 
 int main()
@@ -100,7 +151,12 @@ int main()
     c->next = tail;
     tail->prev = c;
 
-    insert_pos(head, 2, 100);
+    // if(pos === 0){
+    //     insert_head(head, val);
+    // }
+
+    insert_at_pos(head, 2, 200);
+    insert_head(head, tail, 5);
     print_normal(head);
     print_reverse(tail);
 
