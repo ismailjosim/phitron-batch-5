@@ -5,7 +5,6 @@ using namespace std;
 
 int main()
 {
-<<<<<<< HEAD
     list<string> words;
 
     while (true)
@@ -88,8 +87,6 @@ int main()
         }
         t--;
     }
-=======
->>>>>>> 57824f893143ca4ceeae70ee24dab35d67658bc1
 
     return 0;
 }
