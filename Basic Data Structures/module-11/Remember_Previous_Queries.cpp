@@ -12,16 +12,6 @@ void print_forward(list<int> lists)
     }
     cout << endl;
 }
-// void print_backward(list<int> lists)
-// {
-//     // print out
-//     cout << "R -> ";
-//     for (auto it = lists.rbegin(); it != lists.rend(); it++)
-//     {
-//         cout << *it << " ";
-//     }
-//     cout << endl;
-// }
 
 void print_backward(list<int> lists)
 {
