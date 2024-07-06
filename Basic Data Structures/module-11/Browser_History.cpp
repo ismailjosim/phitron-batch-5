@@ -8,3 +8,30 @@
 * visit prev => NULL so (Not Available)
 
 */
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    list<string> words;
+    while (true)
+    {
+        string input;
+        cin >> input;
+        if (input == "end")
+        {
+            break;
+        }
+        words.push_back(input);
+    }
+
+    for (auto word : words)
+    {
+        cout << word << " ";
+    }
+    cout << endl;
+
+    return 0;
+}
