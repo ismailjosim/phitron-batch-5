@@ -87,46 +87,25 @@ Node *input_tree()
     }
     return root;
 };
-// level order function
-void level_order(Node *root)
+
+int mx_height(Node *root)
 {
+    // Base Case
     if (root == NULL)
     {
-        cout << "Tree not found!";
-        return;
-    };
-    queue<Node *> q;
-    q.push(root);
-
-    while (!q.empty())
-    {
-        // step 01: বের করে আনা
-        Node *f = q.front();
-        q.pop();
-
-        // step 02: যাবতীয় যা কাজ আছে সেগুলো করা।
-        cout << f->data << " ";
-
-        // step 03: তার children গুলোকে লাইনে দাড় করিয়ে দেওয়া। it will print from left to right
-        if (f->left)
-            q.push(f->left);
-        if (f->right)
-            q.push(f->right);
-    }
-};
-int count(Node *root)
-{
-    if (root == NULL)
         return 0;
-    int left = count(root->left);
-    int right = count(root->right);
-    return left + right + 1;
-}
+    }
+
+    int l = mx_height(root->left);
+    int r = mx_height(root->right);
+
+    return max(l, r) + 1;
+};
 
 int main()
 {
     Node *root = input_tree();
-    cout << count(root) << endl;
+    cout << mx_height(root) << endl;
 
     return 0;
 }
