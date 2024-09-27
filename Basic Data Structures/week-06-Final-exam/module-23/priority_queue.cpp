@@ -4,7 +4,11 @@ using namespace std;
 
 int main()
 {
-    priority_queue<int> pq;
+    // * use this if you want to arrange the value in asc order
+    // priority_queue<int> pq;
+
+    //* use this if you want to get arrange the value in des order
+    priority_queue<int, vector<int>, greater<int>> pq;
     while (true)
     {
         int cmd;
