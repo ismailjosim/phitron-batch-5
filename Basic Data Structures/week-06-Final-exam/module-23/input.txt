@@ -1,9 +1,6 @@
-0 10
-0 20
-0 5
-2
-1
-2
-0 100
-2
-3
+5
+rahim 20 BD
+jack 25 US
+tahmid 22 BD
+rose 23 SW
+kamal 30 CH
