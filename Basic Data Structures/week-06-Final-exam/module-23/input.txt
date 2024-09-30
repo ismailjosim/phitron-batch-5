@@ -1,6 +1,1 @@
-5
-rahim 20 BD
-jack 25 US
-tahmid 22 BD
-rose 23 SW
-kamal 30 CH
+A hash collision occurs when two different inputs produce the same hash value Since most hash functions have a fixed range of possible outputs collisions are inevitable However good hash functions minimize collisions
