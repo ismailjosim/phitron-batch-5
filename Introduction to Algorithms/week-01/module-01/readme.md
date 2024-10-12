@@ -2,3 +2,4 @@
 
 - Graph and types of Graph ☑️
 - Adjacency Matrix ☑️
+- Adjacency List ☑️
