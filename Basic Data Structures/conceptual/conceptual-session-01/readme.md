@@ -1,4 +1,4 @@
-# Today's Topics
+# Today's Topics conceptual session 01: 30mins done
 
 - What is complete binary tree?
 - Array Representation of complete binary tree
