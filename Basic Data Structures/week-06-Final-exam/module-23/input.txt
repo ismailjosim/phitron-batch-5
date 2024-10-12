@@ -1,1 +1,0 @@
-A hash collision occurs when two different inputs produce the same hash value Since most hash functions have a fixed range of possible outputs collisions are inevitable However good hash functions minimize collisions
