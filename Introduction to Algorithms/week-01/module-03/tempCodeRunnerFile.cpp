@@ -1,0 +1,1 @@
+  cout << first << " " << second << " - Distance: " << dist[first][second] << endl;
