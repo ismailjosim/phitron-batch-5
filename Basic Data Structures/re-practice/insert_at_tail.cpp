@@ -19,13 +19,12 @@ void insert_at_tail(Node *&head, int v)
 {
     Node *newNode = new Node(v);
 
-    // jodi head null hoi tahole head e push hobe.
     if (head == NULL)
     {
         head = newNode;
         return;
     }
-    // jodi head null na hoi tahole head ke temp variable e rekhe loop kore last element e jete hobe then push korte hobe.
+
     Node *temp = head;
     while (temp->next != NULL)
     {
