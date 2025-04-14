@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-
 class Node
 {
 public:
@@ -15,24 +14,11 @@ public:
     }
 };
 
-void insert_at_tail(Node *&head, int v)
+void insert_head(Node *&head, int v)
 {
     Node *newNode = new Node(v);
-
-    // jodi head null hoi tahole head e push hobe.
-    if (head == NULL)
-    {
-        head = newNode;
-        return;
-    }
-    // jodi head null na hoi tahole head ke temp variable e rekhe loop kore last element e jete hobe then push korte hobe.
-    Node *temp = head;
-    while (temp->next != NULL)
-    {
-        temp = temp->next;
-    }
-    // temp er next e rakha hobe new node ke
-    temp->next = newNode;
+    newNode->next = head;
+    head = newNode;
 }
 void print_list(Node *head)
 {
@@ -45,7 +31,6 @@ void print_list(Node *head)
     }
     cout << endl;
 }
-
 int main()
 {
     Node *head = NULL;
@@ -55,7 +40,7 @@ int main()
     {
         int v;
         cin >> v;
-        insert_at_tail(head, v);
+        insert_head(head, v);
         n--;
     }
     print_list(head);
