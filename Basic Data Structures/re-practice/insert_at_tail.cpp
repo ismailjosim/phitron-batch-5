@@ -30,7 +30,7 @@ void insert_at_tail(Node *&head, int v)
     {
         temp = temp->next;
     }
-    // temp er next e rakha hobe new node ke
+
     temp->next = newNode;
 }
 void print_list(Node *head)
